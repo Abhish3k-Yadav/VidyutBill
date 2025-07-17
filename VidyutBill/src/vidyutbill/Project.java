@@ -13,7 +13,7 @@ public class Project extends JFrame implements ActionListener {
         this.meter = meter;
         setExtendedState(JFrame.MAXIMIZED_BOTH);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/pro.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/pro.png"));
         Image i2 = i1.getImage().getScaledInstance(1920, 1010, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
